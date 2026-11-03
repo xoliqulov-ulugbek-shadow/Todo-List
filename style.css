@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Google Sans Code", monospace;
+}
+
+.img-js {
+    width: 150px;
+    border-radius: 100%;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 span {
+    font-weight: lighter;
+}
+
+#contactList {
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.div-js {
+    width: 100%;
+    height: 190px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+span {
+    margin-left: 20px;
+}
+
+.dd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: white;
+    border-radius: 200px;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 120px;
+}
+
+.gg button {
+    width: 50px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+@media (max-width: 1200px) {
+    .conteiner {
+        width: 95%;
+    }
+
+    .div-js {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    h1 span {
+        font-size: 70px;
+    }
+
+    .div-js {
+        height: auto;
+        min-height: 160px;
+    }
+
+    .img-js {
+        width: 120px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 55px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1 span {
+        font-size: 55px;
+    }
+
+    .conteiner {
+        width: 92%;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .conteiner>button {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+
+    .div-js {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .dd {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .img-js {
+        width: 110px;
+    }
+
+    span {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .gg {
+        display: flex;
+        gap: 15px;
+    }
+
+    .gg button {
+        width: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h1 span {
+        font-size: 40px;
+        font-weight: lighter;
+    }
+
+    .conteiner {
+        width: 94%;
+    }
+
+    input {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .conteiner>button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .div-js {
+        border-radius: 15px;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+    }
+
+    .img-js {
+        width: 90px;
+    }
+
+    .dd {
+        width: 100%;
+    }
+
+    .dd p {
+        font-size: 12px;
+        word-break: break-word;
+    }
+
+    .gg button {
+        width: 42px;
+        height: 42px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h1 span {
+        font-size: 29px;
+        color: #da1616;
+        font-weight: bolder;
+    }
+
+    .img-js {
+        width: 75px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    .div-js {
+        padding: 12px 8px;
+    }
+}
